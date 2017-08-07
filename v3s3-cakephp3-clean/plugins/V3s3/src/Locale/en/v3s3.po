@@ -1,0 +1,38 @@
+#--------------------------------------------------------------------------
+# V3S3 Language Lines
+#--------------------------------------------------------------------------
+
+msgid "V3S3_EXCEPTION_CONTROLLER_REQUEST_VALIDATION_INVALID_METHOD"
+msgstr "Invalid request: Unsupported HTTP method."
+
+msgid "V3S3_EXCEPTION_CONTROLLER_REQUEST_VALIDATION_OBJECT_NAME_TOO_LONG"
+msgstr "Invalid request: Object name must not exceed 1024 characters."
+
+msgid "V3S3_EXCEPTION_CONTROLLER_REQUEST_VALIDATION_PUT_EMPTY_OBJECT_NAME"
+msgstr "Invalid request: Empty object name is not allowed for PUT requests."
+
+msgid "V3S3_EXCEPTION_CONTROLLER_REQUEST_VALIDATION_DELETE_EMPTY_OBJECT_NAME"
+msgstr "Invalid request: Empty object name is not allowed for DELETE requests."
+
+msgid "V3S3_EXCEPTION_CONTROLLER_REQUEST_VALIDATION_POST_EMPTY_OBJECT_NAME"
+msgstr "Invalid request: Empty object name is not allowed for POST requests."
+
+msgid "V3S3_EXCEPTION_CONTROLLER_REQUEST_VALIDATION_POST_INVALID_REQUEST"
+msgstr "Invalid request: Could not parse POST data."
+
+
+
+msgid "V3S3_MESSAGE_PUT_OBJECT_ADDED_SUCCESSFULLY"
+msgstr "Object added successfully."
+
+msgid "V3S3_MESSAGE_DELETE_OBJECT_DELETED_SUCCESSFULLY"
+msgstr "Object deleted."
+
+msgid "V3S3_MESSAGE_404"
+msgstr "404"
+
+msgid "V3S3_MESSAGE_NO_MATCHING_RESOURCES"
+msgstr "No matching resources."
+
+msgid "V3S3_EXCEPTION_CONTROLLER_REQUEST_VALIDATION_DB_CANNOT_UPDATE_RECORD_NO_MATCH"
+msgstr "Cannot update record. No matching records found. (id:%d)"

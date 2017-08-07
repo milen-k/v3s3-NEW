@@ -1,0 +1,18 @@
+<?php
+
+return [
+	'db' => array(
+		'driver'         => 'Pdo',
+		'dsn'            => 'mysql:dbname=<-MYSQL_DATABASE->;host=<-MYSQL_HOST->', // V3s3 modify
+		'username'       =>'<-MYSQL_USER->', // V3s3 modify
+		'password'      =>'<-MYSQL_PASS->', // V3s3 modify
+		'driver_options' => array(
+			PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES \'UTF8MB4\''
+		),
+	),
+	'service_manager' => array(
+		'aliases' => array(
+			'db' => 'Zend\Db\Adapter\Adapter',
+		),
+	),
+];
